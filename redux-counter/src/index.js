@@ -80,6 +80,16 @@ class Counter extends Component {
 const mapStateToProps = (state) => { return state };
 
 // provides the dispatch to the components as props
+// const mapDispatchToProps = (dispatch) => {
+//   return bindActionCreators(
+//     {
+//       increment,
+//       decrement,
+//       reset
+//     }, 
+//     dispatch
+//   )
+// };
 const mapDispatchToProps = {
   increment,
   decrement,
